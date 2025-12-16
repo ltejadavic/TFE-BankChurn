@@ -1,0 +1,55 @@
+{
+  "num_cols": [
+    "CreditScore",
+    "Age",
+    "Tenure",
+    "Balance",
+    "EstimatedSalary"
+  ],
+  "cat_cols": [
+    "Geography",
+    "Gender",
+    "HasCrCard",
+    "IsActiveMember",
+    "NumOfProducts"
+  ],
+  "n_features_full": 15,
+  "winsor_bounds_path": "/Users/luistejada/Downloads/TFE Churn Bancario/preproc_datasets/winsor_bounds.json",
+  "split_indices_path": "/Users/luistejada/Downloads/TFE Churn Bancario/preproc_datasets/split_indices.csv",
+  "treat_num_products_as_cat": true,
+  "ordinal_encoder_meta_path": "/Users/luistejada/Downloads/TFE Churn Bancario/preproc_datasets/ordinal_encoder_meta.json",
+  "ohe_meta": {
+    "ohe_input_cols": [
+      "Geography",
+      "Gender",
+      "HasCrCard",
+      "IsActiveMember",
+      "NumOfProducts"
+    ],
+    "ohe_categories": {
+      "Geography": [
+        0,
+        1,
+        2
+      ],
+      "Gender": [
+        0,
+        1
+      ],
+      "HasCrCard": [
+        0,
+        1
+      ],
+      "IsActiveMember": [
+        0,
+        1
+      ],
+      "NumOfProducts": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "ordinal_input_cols": [
+    "Geography",
+    "Gender",
+    "HasCrCard",
+    "IsActiveMember",
+    "NumOfProducts"
+  ],
+  "ordinal_categories": {
+    "Geography": [
+      "France",
+      "Germany",
+      "Spain"
+    ],
+    "Gender": [
+      "Female",
+      "Male"
+    ],
+    "HasCrCard": [
+      "0",
+      "1"
+    ],
+    "IsActiveMember": [
+      "0",
+      "1"
+    ],
+    "NumOfProducts": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  }
+}

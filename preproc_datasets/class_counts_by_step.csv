@@ -1,0 +1,6 @@
+step,n_total,n_neg_0,n_pos_1,pos_ratio_%
+raw_full,10000,7963,2037,20.37
+after_drop_ids,10000,7963,2037,20.37
+split_train,6000,4777,1223,20.38
+split_val,2000,1593,407,20.35
+split_test,2000,1593,407,20.35
