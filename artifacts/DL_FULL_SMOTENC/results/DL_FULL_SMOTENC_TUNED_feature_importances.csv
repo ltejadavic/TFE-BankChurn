@@ -1,0 +1,16 @@
+feature,importance_proxy
+NumOfProducts_3,1.003732
+num__Balance,0.47462302
+NumOfProducts_2,0.4716321
+num__Age,0.39497933
+IsActiveMember_1,0.35191727
+Geography_2,0.33743748
+num__EstimatedSalary,0.32302836
+Geography_1,0.29193714
+num__Tenure,0.2899449
+num__CreditScore,0.27736282
+NumOfProducts_1,0.27578658
+NumOfProducts_0,0.26221475
+Geography_0,0.25760213
+Gender_1,0.24241653
+HasCrCard_1,0.24209866
