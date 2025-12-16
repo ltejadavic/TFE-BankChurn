@@ -1,0 +1,17 @@
+{
+  "type": "LogisticRegression",
+  "penalty": "l2",
+  "C": 1.0,
+  "solver": "liblinear",
+  "feature_names_level1": [
+    "xgb_tuned_proba",
+    "lgbm_tuned_proba",
+    "rf_proba"
+  ],
+  "coef_": [
+    2.461213689611841,
+    1.8756350507534594,
+    1.2808367617698289
+  ],
+  "intercept_": -3.273085055538155
+}
