@@ -1,0 +1,56 @@
+{
+  "export_schema": "v1",
+  "model_key": "LGBM_REDUCED_SMOTENC_BASE",
+  "kind": "lightgbm_binary_classifier",
+  "framework": "lightgbm",
+  "framework_version": "4.6.0",
+  "python_version": "3.11.14",
+  "files": {
+    "model_txt": "LGBM_REDUCED_SMOTENC_BASE.lgbm.txt"
+  },
+  "features": {
+    "names": [
+      "num__CreditScore",
+      "num__Age",
+      "num__Tenure",
+      "num__Balance",
+      "num__EstimatedSalary",
+      "Geography_1",
+      "Gender_1",
+      "HasCrCard_1",
+      "IsActiveMember_1",
+      "NumOfProducts_1",
+      "NumOfProducts_2",
+      "NumOfProducts_3"
+    ],
+    "dtype": "float32"
+  },
+  "inference": {
+    "class_labels": [
+      0,
+      1
+    ],
+    "threshold": 0.447
+  },
+  "training": {
+    "best_iteration": 376
+  },
+  "metrics": {
+    "validation": {
+      "pr_auc": 0.6880474586286291,
+      "roc_auc": 0.8568075008752974,
+      "precision": 0.6498740554156172,
+      "f1": 0.6417910447761194,
+      "recall": 0.6339066339066339,
+      "bal_acc": 0.7733249428164682
+    },
+    "test": {
+      "pr_auc": 0.7069322778697686,
+      "roc_auc": 0.8632978124503548,
+      "precision": 0.6211031175059952,
+      "f1": 0.6286407766990292,
+      "recall": 0.6363636363636364,
+      "bal_acc": 0.768589853335616
+    }
+  }
+}
