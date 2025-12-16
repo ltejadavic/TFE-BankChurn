@@ -1,0 +1,17 @@
+{
+  "models": [
+    "xgb",
+    "lgbm",
+    "dl"
+  ],
+  "weights": [
+    1.0,
+    0.0,
+    0.25
+  ],
+  "src": {
+    "xgb": "TUNED",
+    "lgbm": "TUNED",
+    "dl": "TUNED"
+  }
+}

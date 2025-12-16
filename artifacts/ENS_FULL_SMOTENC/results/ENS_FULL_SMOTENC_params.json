@@ -1,0 +1,21 @@
+{
+  "models": [
+    "xgb",
+    "lgbm"
+  ],
+  "soft_weights": {
+    "xgb": 0.75,
+    "lgbm": 0.25
+  },
+  "soft_val_ap": 0.6988588748479725,
+  "stacking": {
+    "coef": [
+      2.9925241770666577,
+      2.8319365074938654
+    ],
+    "intercept": -1.9028169218804079,
+    "class_weight": "balanced",
+    "solver": "liblinear",
+    "C": 1.0
+  }
+}

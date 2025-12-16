@@ -1,0 +1,16 @@
+{
+  "d_model": 48,
+  "n_heads": 2,
+  "n_layers": 3,
+  "lstm_hidden": 96,
+  "cnn_channels": 32,
+  "kernel_size": 3,
+  "dropout": 0.330222144734749,
+  "lr": 0.0006202506844188844,
+  "weight_decay": 0.0007018196903507625,
+  "batch_size": 128,
+  "epochs": 100,
+  "patience": 12,
+  "random_state": 42,
+  "_did_smote": true
+}
