@@ -1,0 +1,58 @@
+{
+  "export_schema": "v1",
+  "model_key": "XGB_REDUCED_SMOTENC_TUNED",
+  "kind": "xgboost_binary_classifier",
+  "framework": "xgboost",
+  "framework_version": "3.1.2",
+  "python_version": "3.11.14",
+  "files": {
+    "model_json": "XGB_REDUCED_SMOTENC_TUNED.xgb.json",
+    "model_ubj": "XGB_REDUCED_SMOTENC_TUNED.xgb.ubj",
+    "sk_params_joblib": "XGB_REDUCED_SMOTENC_TUNED.sk_params.joblib"
+  },
+  "features": {
+    "names": [
+      "num__CreditScore",
+      "num__Age",
+      "num__Tenure",
+      "num__Balance",
+      "num__EstimatedSalary",
+      "Geography_1",
+      "Gender_1",
+      "HasCrCard_1",
+      "IsActiveMember_1",
+      "NumOfProducts_1",
+      "NumOfProducts_2",
+      "NumOfProducts_3"
+    ],
+    "dtype": "float32"
+  },
+  "inference": {
+    "class_labels": [
+      0,
+      1
+    ],
+    "threshold": 0.47400000000000003
+  },
+  "training": {
+    "best_iteration": 346
+  },
+  "metrics": {
+    "validation": {
+      "pr_auc": 0.6985261084210692,
+      "roc_auc": 0.8575385863521459,
+      "precision": 0.6885245901639344,
+      "f1": 0.6520051746442432,
+      "recall": 0.6191646191646192,
+      "bal_acc": 0.7738007653261891
+    },
+    "test": {
+      "pr_auc": 0.7087137413838522,
+      "roc_auc": 0.8631620835010666,
+      "precision": 0.6469002695417789,
+      "f1": 0.6169665809768637,
+      "recall": 0.5896805896805897,
+      "bal_acc": 0.7537229062652792
+    }
+  }
+}

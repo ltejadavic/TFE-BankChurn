@@ -1,0 +1,13 @@
+feature
+num__CreditScore
+num__Age
+num__Tenure
+num__Balance
+num__EstimatedSalary
+Geography_1
+Gender_1
+HasCrCard_1
+IsActiveMember_1
+NumOfProducts_1
+NumOfProducts_2
+NumOfProducts_3

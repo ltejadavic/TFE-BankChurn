@@ -1,0 +1,55 @@
+{
+  "all_features": [
+    "num__CreditScore",
+    "num__Age",
+    "num__Tenure",
+    "num__Balance",
+    "num__EstimatedSalary",
+    "Geography_0",
+    "Geography_1",
+    "Geography_2",
+    "Gender_1",
+    "HasCrCard_1",
+    "IsActiveMember_1",
+    "NumOfProducts_0",
+    "NumOfProducts_1",
+    "NumOfProducts_2",
+    "NumOfProducts_3"
+  ],
+  "used_features": [
+    "NumOfProducts_1",
+    "num__Age",
+    "NumOfProducts_0",
+    "IsActiveMember_1",
+    "num__Balance",
+    "Geography_1",
+    "Gender_1",
+    "num__EstimatedSalary",
+    "Geography_2",
+    "NumOfProducts_3",
+    "Geography_0",
+    "NumOfProducts_2",
+    "HasCrCard_1"
+  ],
+  "dropped_features": [
+    "num__CreditScore",
+    "num__Tenure"
+  ],
+  "reduction": {
+    "mi_topk": null,
+    "pca_components": null,
+    "perm_cv": {
+      "enabled": true,
+      "n_repeats": 20,
+      "topk": null,
+      "min_delta": 0.0
+    },
+    "l1": {
+      "enabled": false,
+      "C": null,
+      "standardize": null,
+      "topk": null,
+      "min_abs_coef": null
+    }
+  }
+}
